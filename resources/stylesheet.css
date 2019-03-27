@@ -1,0 +1,138 @@
+/* CSS TORTOISESHELL OPTICS */
+
+html, body {
+	font-size: 18px;
+	line-height: 1.4;
+	height: 100%;
+}
+
+ .flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	/* text-align: center; */
+}
+
+/* NAV-BAR */
+
+.nav-bar.flex {
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: cadetblue;
+	color: white;
+	width: 100%;
+	position: relative;
+	top: 1rem;
+}
+
+.nav-logo-title {
+	display: flex;
+	align-items: center;
+}
+
+.nav-logo-title img {
+	height: 1.5rem;
+}
+
+.nav-links ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-links li {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	padding: 1rem 2rem;
+}
+
+/* HERO IMAGE */
+
+.hero-image {
+	background-image: url("images/glasses-banner.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 30rem;
+
+}
+
+.hero-text {
+	position: relative;
+	top: 14rem;
+	left: 2rem;
+	background-color: white;
+
+}
+
+/* PRODUCT ICONS */
+
+.product-container.flex {
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+
+}
+
+.icon-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 8rem;
+	width: 8rem;
+	margin: 3rem;
+}
+
+.icon-container img {
+	width: 3.5rem;
+}
+
+.icon-container span {
+	width: 2rem;
+}
+
+/* PHILOSOPHY / APPTS. */
+
+.main-col {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+
+}
+.info-col {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 35%;
+}
+
+.title {
+	/* display: block; */
+	color: white;
+	background-color: cadetblue;
+	width: 10rem;
+	margin-bottom: 1rem;
+	padding-left: 1.25rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+/* FOOTER */
+
+.footer-copyright {
+	display: flex;
+	align-items: center;
+	background-color: azure;
+	width: 100%;
+	height: 9.5rem;
+	margin-top: 5rem;
+
+}
