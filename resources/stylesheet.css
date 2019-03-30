@@ -4,6 +4,7 @@ html, body {
 	font-size: 18px;
 	line-height: 1.4;
 	height: 100%;
+	font-family:"Helvetica", sans-serif;
 }
 
  .flex {
@@ -36,18 +37,28 @@ html, body {
 
 .nav-logo-title img {
 	height: 1.5rem;
+	padding-left: 2rem;
+	padding-right: 1rem;
 }
 
 .nav-links ul {
 	display: flex;
 	flex-direction: row;
+	margin-right: 1rem;
 }
 
 .nav-links li {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
-	padding: 1rem 2rem;
+	padding: 1rem 1rem;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
 }
 
 /* HERO IMAGE */
@@ -64,9 +75,13 @@ html, body {
 
 .hero-text {
 	position: relative;
-	top: 14rem;
-	left: 2rem;
+	top: 10rem;
+	left: 22rem;
 	background-color: white;
+	font-size:2rem;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: 1.5rem 5rem;
 
 }
 
@@ -84,17 +99,24 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: center;
 	height: 8rem;
 	width: 8rem;
 	margin: 3rem;
 }
 
-.icon-container img {
+.icon.paper img {
 	width: 3.5rem;
 }
 
+.icon.ruler img,
+.icon.truck img {
+	width: 5rem;
+}
+
 .icon-container span {
-	width: 2rem;
+	display: block;
+	padding: 0rem 1rem;
 }
 
 /* PHILOSOPHY / APPTS. */
@@ -102,16 +124,23 @@ html, body {
 .main-col {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
+	/* padding-left: 12.5%;
+	padding-right: 12.5%; */
 
 }
 .info-col {
 	display: flex;
 	flex-direction: column;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	width: 35%;
+}
+
+.info-col.appt {
+	margin-left: 5%;
 }
 
 .title {
@@ -135,4 +164,9 @@ html, body {
 	height: 9.5rem;
 	margin-top: 5rem;
 
+}
+
+
+.footer-copyright img {
+	padding: 4rem 1rem 4rem 4rem;
 }
